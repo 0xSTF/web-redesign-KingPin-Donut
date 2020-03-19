@@ -4,6 +4,7 @@ body{
   width:100vw;
   height:100vh;
   background-color:#FCBCB8;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .content-container{
@@ -51,19 +52,22 @@ body{
 }
 .nav-buttons{
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 160%;
+  font-size: 24px;
   margin-right:10%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #B35B5B;
+  letter-spacing: 0.04em;
 }
 
 
 
 .company-container{
-
   display: flex;
   flex-direction:row;
   width:100vw;
   height: 100vh;
-
+  margin-top: 64px;
 }
 
 .company-story{
@@ -78,12 +82,13 @@ body{
 }
 
 .story-title{
-  font-family: sans-serif;
+  font-weight: bold;
   font-size: 45px;
+  color: #323232;
 }
 
 .story-content{
-  font-family: sans-serif;
+  color: #323232;
   font-size: 20px;
   text-align: center;
   line-height: 45px;
@@ -116,7 +121,8 @@ body{
   width:100vw;
   height:80vh;
   display: flex;
-
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .bottom{
@@ -150,21 +156,21 @@ body{
 }
 
 .tagline{
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 200%;
   width: 60%;
+  color: #323232;
 }
 
-/* .images{
-  position: relative;
-} */
+ .images{
+  margin-top: 48px;
+} 
 
 #img1 {
   width: 60%;
   position: relative;
   /* top: 40vh; */
-  transform: translate(-55%, 110%);
+  /*transform: translate(-55%, 110%);*/
 }
 
 #img2 {
@@ -172,7 +178,7 @@ body{
   position: relative;
   /* top: -25vh;
   left: 1vw; */
-  transform: translate(-10%,-60%);
+  /*transform: translate(-10%,-60%);*/
   /* transform: translateX(-50%); */
 }
 

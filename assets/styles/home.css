@@ -17,12 +17,56 @@
 	color: #767676;
 }
 
-.nav-bar .links > a {
-	font-size: 20px;
-	padding: 16px;
-	letter-spacing: 0.04em;
-	text-decoration: none;
+
+/* Header shared */
+.header-container {
+  width: 100vw;
+  height: 8vh;
+  background-color: white;
+  color:#B35B5B;
+  display: flex;
 }
+
+.name-company{
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+
+}
+
+.left-header{
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+  width: 50%;
+}
+
+#company-logo {
+  width:5.5%;
+  margin-right: 1%;
+}
+.right-header{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.nav-buttons{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 36px;
+  margin-right:10%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #B35B5B;
+  letter-spacing: 0.04em;
+}
+
+/* Home styles */
 
 #title {
 	font-family: "Lora", serif;
@@ -46,7 +90,6 @@
 	font-size: 36px;
 	line-height: 46px;
 	letter-spacing: 0.02em;
-
 	color: #323232;
 }
 
@@ -70,6 +113,7 @@ body {
 
 .main {
 	width: 100%;
+	justify-content: space-around;
 }
 
 .main .top {
@@ -159,6 +203,7 @@ body {
 	width: 100%;
 	min-width: 1000px;
 	border-radius: 0px 0px 8px 8px;
+	max-height: 800px;
 }
 #assorted {
 	width: 540px;
