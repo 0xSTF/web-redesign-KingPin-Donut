@@ -1,0 +1,95 @@
+/* Text */
+body {
+	font-family: "Karla", sans-serif;
+	color: rgba(255,255,255,0.5);
+	font-size: 20px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 40px;
+	text-transform: none;
+	font-variant: none;
+	position: relative;
+	left: 5%;
+}
+
+
+/* Containers */
+body {
+	margin: 0;
+	background: #FFD5D2;
+}
+
+.row-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.column-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+}
+
+.main .top {
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+}
+
+.opacity-layer {
+	background-color: rgb(107,107,107, 0.25);
+	padding: 100px;
+	border-radius: 5%;
+	z-index: 0;
+}
+
+.nav-bar {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.main .bottom {
+	margin: 24px 8px;
+	justify-content: space-around;
+	align-items: center;
+	/* Text */
+	color: #323232;
+}
+
+/* Positioning */
+
+/* Images */
+img {
+}
+
+#logo {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	height: 100px;
+}
+
+/* Couldn't figure out how to make this responsive */
+#instore {
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	min-width: 1000px;
+	max-width: 1200px;
+}
+#assorted {
+	width: 540px;
+}
