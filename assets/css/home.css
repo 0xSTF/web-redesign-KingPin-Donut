@@ -1,21 +1,53 @@
 /* Text */
-body {
-	font-family: "Karla", sans-serif;
-	color: rgba(255,255,255,0.5);
+.noto {
+	font-family: "Noto Sans", sans-serif;
+	color: rgba(255,255,255,1);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.work-sans {
+	font-family: Work Sans;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	color: #767676;
+}
+
+.nav-bar > div {
 	font-size: 20px;
-	text-transform: lowercase;
-	font-variant: small-caps;
+	padding: 16px;
+	letter-spacing: 0.04em;
+
 }
 
-h1 {
-	font-weight: 400;
-	font-size: 40px;
-	text-transform: none;
-	font-variant: none;
-	position: relative;
-	left: 5%;
+#title {
+	font-family: "Lora", serif;
+	color: rgba(255,255,255,1);
+	font-size: 56px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
 }
 
+#welcome {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+
+#tagline {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+
+	color: #323232;
+}
 
 /* Containers */
 body {
@@ -45,51 +77,86 @@ body {
 	align-items: center;
 }
 
-.opacity-layer {
-	background-color: rgb(107,107,107, 0.25);
-	padding: 100px;
-	border-radius: 5%;
-	z-index: 0;
-}
-
 .nav-bar {
 	width: 100%;
 	position: absolute;
-	display: flex;
-	flex-direction: row;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-between;
+}
+
+.logo-container {
+	justify-content: space-between;
+	align-items: center;
+	width: 150px;
+}
+
+.links {
+	align-items: center;
+	justify-content: space-around;
+	width: 500px;
+}
+
+.opacity-layer {
+	height: 440px;
+	width: 684px;
+	background-color: rgb(107,107,107, 0.25);
+	border-radius: 5%;
+	z-index: -1;
+	justify-content: center;
+	align-items: center;
+}
+
+.opacity-layer .content {
+	justify-content: space-around;
+	height: 70%;
+	align-items: center;
 }
 
 .main .bottom {
-	margin: 24px 8px;
+	width: 100%;
+	margin: 64px 8px;
 	justify-content: space-around;
 	align-items: center;
-	/* Text */
-	color: #323232;
 }
 
+.right {
+	width: 360px;
+}
 /* Positioning */
 
-/* Images */
-img {
+.opacity-layer > div {
+	padding: 4px;
 }
 
+.button {
+	border: 1px solid rgb(255,255,255, 0.9);
+	border-radius: 2px;
+	padding: 20px;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+/* Images */
 #logo {
-	position: absolute;
-	top: 24px;
-	left: 24px;
-	height: 100px;
+	height: 80px;
 }
 
 /* Couldn't figure out how to make this responsive */
 #instore {
-	z-index: -1;
+	z-index: -2;
+	top: 0;
+	left: 0;
+	object-fit: cover;
 	position: absolute;
+	flex: 1;
 	width: 100%;
 	min-width: 1000px;
-	max-width: 1200px;
+	border-radius: 0px 0px 8px 8px;
 }
 #assorted {
 	width: 540px;
+	border-radius: 2%;
+	box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.23);
 }
