@@ -3,7 +3,7 @@ body{
   padding: 0;
   width:100vw;
   height:100vh;
-  background-color:#F58881;
+  background-color:#FCBCB8;
 }
 
 .content-container{
@@ -78,13 +78,15 @@ body{
 }
 
 .story-title{
+  font-family: 'Lora', serif;
   font-size: 45px;
 }
 
 .story-content{
+  font-family: 'Lora', serif;
   font-size: 20px;
   text-align: center;
-  line-height: 35px;
+  line-height: 45px;
 }
 
 /* .donut-image {
@@ -148,6 +150,8 @@ body{
 }
 
 .tagline{
+  font-family: 'Lora', serif;
+  font-weight: bold;
   font-size: 200%;
   width: 60%;
 }
@@ -172,10 +176,6 @@ body{
   /* transform: translateX(-50%); */
 }
 
-/* .location img{
-  width: 20%;
-  height: 20%;
-} */
 
 .location{
   display:flex;
