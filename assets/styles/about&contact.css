@@ -15,14 +15,47 @@ body{
 .header-container {
   width: 100vw;
   height: 8vh;
-  background-color: black;
+  background-color: white;
+  color:#B35B5B;
+  display: flex;
 }
 
-.header-text{
-  color:white;
-  margin:0;
-  padding:0;
+.name-company{
+  font-family: 'Satisfy', cursive;
+  font-size: 170%;
+
 }
+
+.left-header{
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+  width: 50%;
+}
+
+#company-logo {
+  width:5.5%;
+  margin-right: 1%;
+}
+.right-header{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.nav-buttons{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 160%;
+  margin-right:10%;
+}
+
+
 
 .company-container{
 
